@@ -10,6 +10,6 @@ composer update<br />
 cp .env.example .env<br />
 .env のDB環境を編集する<br />
 php artisan key:generate<br />
-npm i && npm run dev<br />
+npm i && npm run build<br />
 php artisan migrate:fresh --seed<br />
 php artisan serve
